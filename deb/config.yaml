@@ -1,0 +1,37 @@
+sources:
+  - uri: unix:/run/haproxy/admin.sock
+
+metrics:
+  - qcur
+  - qmax
+  - scur
+  - smax
+  - slim
+  - stot
+  - bin
+  - bout
+  - dreq
+  - dresp
+  - ereq
+  - econ
+  - eresp
+  - wretr
+  - wredis
+  - chkfail
+  - chkdown
+  - downtime
+  - qlimit
+  - rate
+  - rate_lim
+  - rate_max
+  - hrsp_1xx
+  - hrsp_2xx
+  - hrsp_3xx
+  - hrsp_4xx
+  - hrsp_5xx
+  - hrsp_other
+  - req_rate
+  - req_rate_max
+  - req_tot
+  - cli_abrt
+  - srv_abrt

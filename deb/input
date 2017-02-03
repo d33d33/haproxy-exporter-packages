@@ -1,0 +1,3 @@
+build/haproxy-exporter=/usr/bin/
+deb/config.yaml=/etc/haproxy-exporter/config.yaml
+deb/logrotate=/etc/logrotate.d/haproxy-exporter

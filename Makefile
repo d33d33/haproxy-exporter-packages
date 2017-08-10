@@ -16,7 +16,7 @@ deb:
 		  --description "Export HAProxy stats to Sensision Metrics" \
 			--url "https://github.com/runabove/haproxy-exporter" \
 			--license "BSD-3-Clause" \
-			--version $(shell echo $$(./build/haproxy-exporter version | awk '{print $$2}')) \
+			--version $(shell echo $$(./build/haproxy-exporter version | awk '{print $$2}')-$$(lsb_release  -cs)) \
 			-n haproxy-exporter \
 			-d logrotate \
 			-s dir -t deb \
